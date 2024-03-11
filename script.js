@@ -6,7 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
     orderButton.addEventListener("click", function () {
         const items = document.querySelectorAll(".item");
         let total = 0;
-        
+        // Once clicked hide the order again button
+        orderButton.style.display = "none";
 
         items.forEach((item) => {
             const price = parseFloat(item.querySelector(".price").textContent);
@@ -25,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Reset the order message and hide the order again button
         orderMessage.textContent = "";
         orderAgainButton.style.display = "none";
-        
+        orderButton.style.display = "block";
 
         // Reset quantity inputs
         const quantityInputs = document.querySelectorAll(".quantity");
