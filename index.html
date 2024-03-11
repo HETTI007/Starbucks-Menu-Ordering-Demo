@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks - Menu</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="menu">
+        <main>
+            <h1>STARBUCKS</h1>
+            <p class="established">Est. 1971</p>
+            <hr>
+            <section>
+                <h2>Coffee</h2>
+                <img src="/Starbucks-Coffee.png" alt="coffee icon">
+
+                <!-- Coffee items -->
+                <article class="item">
+                    <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+                    <label for="quantity_french_vanilla">Quantity:</label>
+                    <input type="number" id="quantity_french_vanilla" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <article class="item">
+                    <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+                    <label for="quantity_caramel_macchiato">Quantity:</label>
+                    <input type="number" id="quantity_caramel_macchiato" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <article class="item">
+                    <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+                    <label for="quantity_pumpkin_spice">Quantity:</label>
+                    <input type="number" id="quantity_pumpkin_spice" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <article class="item">
+                    <p class="flavor">Hazelnut Latte</p><p class="price">4.00</p>
+                    <label for="quantity_hazelnut_latte">Quantity:</label>
+                    <input type="number" id="quantity_hazelnut_latte" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <article class="item">
+                    <p class="flavor">Cafe Mocha</p><p class="price">4.50</p>
+                    <label for="quantity_cafe_mocha">Quantity:</label>
+                    <input type="number" id="quantity_cafe_mocha" class="quantity" placeholder="Qty" min="0">
+                </article>
+
+                <!-- Dessert items -->
+                <h2>Desserts</h2>
+                <article class="item">
+                    <p class="flavor">Donut</p><p class="price">1.50</p>
+                    <label for="quantity_donut">Quantity:</label>
+                    <input type="number" id="quantity_donut" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <article class="item">
+                    <p class="flavor">Cherry Pie</p><p class="price">2.75</p>
+                    <label for="quantity_cherry_pie">Quantity:</label>
+                    <input type="number" id="quantity_cherry_pie" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <article class="item">
+                    <p class="flavor">Cheesecake</p><p class="price">3.00</p>
+                    <label for="quantity_cheesecake">Quantity:</label>
+                    <input type="number" id="quantity_cheesecake" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <article class="item">
+                    <p class="flavor">Cinnamon Roll</p><p class="price">2.50</p>
+                    <label for="quantity_cinnamon_roll">Quantity:</label>
+                    <input type="number" id="quantity_cinnamon_roll" class="quantity" placeholder="Qty" min="0">
+                </article>
+                <hr class="order-line">
+                <!-- Order button and completion message -->
+                <button id="orderButton">Order Now</button>
+                <p id="orderMessage"></p>
+                <button id="orderAgainButton" style="display: none;">Order Again</button>
+            </section>
+        </main>
+        <hr class="bottom-line">
+        <footer>
+            <p>
+                <a href="https://www.starbucks.com/menu">Visit our website</a>
+            </p>
+            <p>© Starbucks Coffee. This is a demo project.</p>
+        </footer>
+    </div>
+
+    <!-- Include the script.js file -->
+    <script src="/script.js"></script>
+</body>
+</html>
