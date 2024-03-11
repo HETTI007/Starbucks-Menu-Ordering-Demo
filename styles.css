@@ -1,0 +1,92 @@
+body {
+    background-image: url(/starbucks_green.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+.menu {
+    background-color: #f0ead8;
+    opacity: 0.9;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.menu img {
+    display: block;
+    height: 134px;
+    width: 184px;
+    margin: -30px auto 0;
+}
+
+hr {
+    height: 2px;
+}
+
+.item p {
+    display: inline-block;
+    font-size: larger;
+    margin-top: 7.5px;
+    margin-bottom: 5px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+.order-line {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited,
+a:hover {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: rgb(218, 133, 118);
+}
